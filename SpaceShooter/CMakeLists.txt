@@ -29,7 +29,6 @@ add_custom_target(
         DataTarget-${EXECUTABLE_CUSTOM_NAME}
         DEPENDS ${DATA_BINARY_FILES} ${DATA_FILES})
 
-
 find_package(OpenGL REQUIRED)
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
 find_package(box2d CONFIG REQUIRED)
